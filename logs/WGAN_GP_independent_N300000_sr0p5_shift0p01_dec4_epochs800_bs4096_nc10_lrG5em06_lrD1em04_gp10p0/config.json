@@ -1,0 +1,19 @@
+{
+    "mode": "independent",
+    "N": 300000,
+    "straight_ratio": 0.5,
+    "decimals": 4,
+    "shift_value": 0.01,
+    "shift_loc": 3,
+    "epochs": 800,
+    "batch_size": 4096,
+    "n_critic": 10,
+    "lr_G": 5e-06,
+    "lr_D": 0.0001,
+    "lambda_gp": 10.0,
+    "beta1": 0.5,
+    "beta2": 0.9,
+    "ema_alpha": 0.995,
+    "seed_real": 1,
+    "seed_fake": 2
+}
